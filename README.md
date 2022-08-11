@@ -21,7 +21,7 @@
 ```bash 
 git clone git@github.com:Debas-31/hello-rails-back-end.git
 
-cd rails-budget-app
+cd hello-rails-back-end
 ```
 
 ## Setup
