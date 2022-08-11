@@ -1,24 +1,75 @@
-# README
+# Hello Rails Back End
+>A simple application that contains the setup of rails and react in one application. The App loads a random greeting message from the database when the page loads.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Link to Front-end
+- [hello-react-front-end](https://github.com/Debas-31/hello-react-front-end)
 
-Things you may want to cover:
+## Built With
+- Ruby
+- Ruby on Rails
+- HTML
 
-* Ruby version
+## prerequisites
+``` 
+  Ruby
+  rails version 7.x gem package 
+```
+### Development (Running locally)
 
-* System dependencies
+- git clone the project
 
-* Configuration
+```bash 
+git clone git@github.com:Debas-31/hello-rails-back-end.git
 
-* Database creation
+cd hello-rails-back-end
+```
 
-* Database initialization
+## Setup
+### Install gems with:
+```
+bundle install
+```
+### Setup database with:
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+### Install dependencies
+```
+npm i 
+or
+npm install
+```
+## Usage
+### Start server with:
+```
+rails server
+```
+Visit [http://localhost:3000/]() in your browser.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+👤 **Debas Gebreslasie**
 
-* ...
+- [GitHub](https://github.com/Debas-31)
+- [Twitter](https://twitter.com/DEBSH76956492)
+- [LinkedIn](https://www.linkedin.com/in/debas-gebrengus)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Debas-31/hello-rails-back-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- Ruby Community
+- rails developers
+
+## 📝 License
+
+[MIT licensed](https://github.com/Debas-31/hello-rails-back-end/blob/dev/LICENSE).
